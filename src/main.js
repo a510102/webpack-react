@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import './assets/reset.css';
 
 ReactDOM.render(
-  <Home />,
+  <>
+    <Home />
+  </>,
   document.getElementById('root')
 )
